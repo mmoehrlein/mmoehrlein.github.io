@@ -13,34 +13,36 @@
     </head>
 
     <body>
+
+
         <nav class="blue-grey lighten-2" role="navigation">
             <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">MMoehrlein</a>
+                <!--nav-->
                 <ul class="right hide-on-med-and-down">
+                    <li><a href="#about">Über Mich</a></li>
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#contact">Kontakt</a></li>
                 </ul>
 
+                <!--mobile nav-->
                 <ul id="nav-mobile" class="side-nav">
                     <li><a href="#contact">Kontakt</a></li>
                 </ul>
                 <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
             </div>
         </nav>
-        <div id="index-banner" class="section no-pad-bot">
+
+        <!-- headbanner -->
+        <div id="index-banner" class="section no-pad-bot headbanner">
             <div class="container">
                 <br>
                 <br>
-                <h1 class="header center cyan-text text-lighten-1">Test</h1>
+                <h1 class="header center cyan-text text-lighten-1">moins</h1>
                 <div class="row center">
                     <h5 class="header col s12 light">Eine kleine WebVisitenkarte</h5>
                 </div>
-                <!--
-      <div class="row center">
-        <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
-      </div>
--->
                 <br>
                 <br>
-
             </div>
         </div>
 
@@ -48,7 +50,8 @@
         <div class="container">
             <div class="section">
 
-                <!--   Icon Section   -->
+                <!-- about -->
+                <span id="about" class="scrollSpy"></span>
                 <div class="row">
                     <div class="col s12 m6">
                         <div class="icon-block">
@@ -69,21 +72,67 @@
                         </div>
                     </div>
                 </div>
-
             </div>
             <br>
             <br>
+        </div>
 
+
+        <!-- skills -->
+        <div class="container">
             <div class="section">
+                <span id="skills" class="scrollSpy"></span>
+                <h3 class="header center cyan-text text-lighten-1">Skills</h3>
+                <br>
+                <div class="row skills">
+                    <div class="col s12 m6 l4">
+                        <label for="1" class="cyan-text">test label</label>
+                        <div class="progress ">
+                            <div id="1" class="determinate" style="width: 50%"></div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <label for="2" class="">2</label>
+                        <div class="progress">
+                            <div id="2" class="determinate" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <label for="3">3</label>
+                        <div class="progress">
+                            <div id="3" class="determinate" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <label for="4">4</label>
+                        <div class="progress">
+                            <div id="4" class="determinate" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <label for="5">5</label>
+                        <div class="progress">
+                            <div id="5" class="determinate" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <label for="6">6</label>
+                        <div class="progress">
+                            <div id="6" class="determinate" style="width: 70%"></div>
+                        </div>
+                    </div>
 
+                </div>
             </div>
         </div>
+
+        <!-- contact form -->
         <div class="container">
             <div class="section">
                 <br>
-                <br> <span id="contact" class="scrollSpy"></span>
-                <h3 class="header
-            center cyan-text text-lighten-1">Kontakt</h3>
+                <br>
+                <span id="contact" class="scrollSpy"></span>
+                <h3 class="header center cyan-text text-lighten-1">Kontakt</h3>
                 <div class="row">
                     <form class="col s10 offset-s2" action="https://formspree.io/michael.moehrlein@gmail.com" method="POST">
                         <div class="row">
@@ -119,10 +168,10 @@
         <footer class="page-footer blue-grey darken-3">
             <div class="container">
                 <div class="row">
-                    <div class="col l3 s12 offset-l6">
-                        <h5 class="white-text">Settings</h5>
+                    <div class="col l3 s12">
+                        <h5 class="white-text">Connect</h5>
                         <ul>
-                            <li><a class="white-text" href="#!">Link 1</a></li>
+                            <li><a class="white-text" href="http://github.com/mmoehrlein">GitHub</a></li>
                             <li><a class="white-text" href="#!">Link 2</a></li>
                         </ul>
                     </div>

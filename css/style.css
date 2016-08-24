@@ -8,14 +8,29 @@
  * Made By MaterializeCSS.com
  */
 
+body {
+    background-color: white;
+}
+.skills .col label {
+    font-size: 18px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.skills .col {
+    margin-bottom: 10px;
+    line-height: 0.6;
+}
 .icon-block {
     padding: 0 15px;
 }
 .icon-block .material-icons {
     font-size: inherit;
 }
-#index-banner {
-    background-position: center center;
+.headbanner {
+    height: 500px;
+    background-image: url(../static/images/cover.jpg);
+    background-position: center bottom;
     background-size: cover;
-    background-image: url("cover.jpg");
+    margin-bottom: 40px;
+    background-repeat: no-repeat;
 }
