@@ -1,0 +1,14 @@
+body {
+  background-color: #9031ab;
+}
+
+.skills .col label {
+  font-size: 18px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.skills .col {
+  margin-bottom: 10px;
+  line-height: 0.6;
+}
