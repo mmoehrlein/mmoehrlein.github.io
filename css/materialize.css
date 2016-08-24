@@ -8367,10 +8367,19 @@ body {
 }
 
 .headbanner {
-  height: 500px;
+  height: 900px;
   background-image: url(../static/images/cover.jpg);
   background-position: center bottom;
   background-size: cover;
   margin-bottom: 40px;
   background-repeat: no-repeat;
+}
+
+.bannercontainer {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.bannercontainer h1 {
+  font-weight: 500;
+  font-size: 90px;
 }
