@@ -1,13 +1,12 @@
 .headbanner {
   height: 100vh;
   background-image: url(../static/images/cover-min.jpg);
-  background-position: center center;
+  background-position: center bottom;
   background-size: cover;
-  margin-bottom: 40px;
   background-repeat: no-repeat; }
 
 .bannercontainer {
-  background: rgba(255, 0, 255, 0.5); }
+  background: rgba(255, 255, 255, 0.5); }
   .bannercontainer h1 {
     font-weight: 500;
     font-size: 90px; }
