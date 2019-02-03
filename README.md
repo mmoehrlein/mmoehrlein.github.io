@@ -4,14 +4,8 @@
 
 In the future you (and primarily myself) will find here pages that document or comment on some topics I researched recently.
 
-## testing
-
-```js
-const test = 'Hello World';
-console.log(test);
-```
-
 ## //TODO
+> Shows you what will be coming up
 
 ### npm scripts
 using npm scripts for building
@@ -25,10 +19,6 @@ automatic router setup
 ### update-notifier-repos
 publish update-notifier for generic repos
 
-## Projects
+## published packages
 
-[update-notifier-repos](#update-notifier-repos)
-
-### latest-gitlab-tag
-
-## Tools
+- [latest-gitlab-tag](https://www.npmjs.com/package/latest-gitlab-tag)
