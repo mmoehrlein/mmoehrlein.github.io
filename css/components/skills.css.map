@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,IAAI;EACA,gBAAgB,EAAE,KAAK;;AAE3B,kBAAkB;EACd,SAAS,EAAE,IAAI;EACf,aAAa,EAAE,CAAC;EAChB,cAAc,EAAE,CAAC;;AAErB,YAAY;EACR,aAAa,EAAE,IAAI;EACnB,WAAW,EAAE,GAAG",
-"sources": ["../../sass/components/skills.sass"],
-"names": [],
-"file": "skills.css"
-}
