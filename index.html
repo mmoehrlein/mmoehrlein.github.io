@@ -8,7 +8,20 @@
     <meta name="description" content="Description">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+    <!--<link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">-->
+    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css'>
+    <!-- Theme: Simple Dark -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+    <!-- Custom theme styles -->
+    <style>
+        :root {
+            --base-font-family: Hack, monospace;
+            --code-font-family: Hack, monospace;
+        }
+        .docsify-copy-code-button{
+            border-bottom-left-radius: 10px !important;
+        }
+    </style>
 </head>
 <body>
 <div id="app">Loading...</div>
@@ -20,21 +33,50 @@
         subMaxLevel: 3,
         formatUpdated: '{MM}/{DD} {HH}:{mm}',
         coverpage: true,
-        loadNavbar: true,
         onlyCover: true,
         executeScript: true,
         auto2top: true,
-        mergeNavbar: true,
         // docsify-copy-code (defaults)
         copyCode: {
             buttonText: 'Copy to clipboard',
             errorText: 'Error',
             successText: 'Copied'
-        }
+        },
+        // complete configuration parameters
+        search: {
+            maxAge: 86400000, // Expiration time, the default one day
+            paths: 'auto',
+            placeholder: 'Type to search',
+
+            noData: 'No Results!',
+
+            // Headline depth, 1 - 6
+            depth: 3,
+
+            hideOtherSidebarContent: true, // whether or not to hide other sidebar content
+
+            // To avoid search index collision
+            // between multiple websites under the same domain
+            namespace: 'landingpage'
+        },
+        plugins: [
+            function(hook, vm){
+                hook.afterEach(function(html, next){
+                    var regex = /<p><img.*?data-origin="(.*?)"[^a]+alt="tags">([^<]*?)<\/p>/g;
+                    var match;
+                    while (match = regex.exec(html)) {
+                        inject = '<div class="tags"><small><b>Tags: </b><em>' + match[1].split(',').join(' ') + '</em></small></div>';
+                        html = html.replace(match[0], inject)
+                    }
+                    next(html);
+                });
+            }
+        ]
     };
 </script>
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+<script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
 <script src="//unpkg.com/docsify-copy-code@2"></script>
 </body>
 </html>
