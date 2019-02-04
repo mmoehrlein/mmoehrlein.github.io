@@ -7,11 +7,43 @@ In the future you (and primarily myself) will find here pages that document or c
 ## //TODO
 > Shows you what will be coming up
 
+> will also be collecting some resources here and link the finished project later
+
+### docsify customize
+
+#### theme
+- create a them with [materialize css](https://materializecss.com/)
+- [docsify-themable](https://jhildenbiddle.github.io/docsify-themeable/#/)
+
+#### general
+- offline mode
+- add more pages and customize settings in general
+- add logo
+
+
 ### npm scripts
 using npm scripts for building
 
-### yeoman
-want to build a yeoman generator for my boilerplate
+### boilerplate
+want to build a generator for my boilerplate
+- [yeoman](https://yeoman.io/)
+- Winston
+- [solidarity]()
+- [git hooks](https://git-scm.com/book/uz/v2/Customizing-Git-Git-Hooks)
+    - [commitlint](https://www.npmjs.com/package/@commitlint/cli)
+- npm scripts
+    - [nps](https://www.npmjs.com/package/nps)
+    - [npm run all](https://www.npmjs.com/package/npm-run-all)
+    - [watch](https://www.npmjs.com/package/watch)
+    - [onchange](https://github.com/Qard/onchange)
+    - [documentationjs](https://documentation.js.org/)
+    - [changelog](https://www.npmjs.com/package/changelog)
+    - [auto-changelog](https://www.npmjs.com/package/auto-changelog)
+    - [stdin](https://www.npmjs.com/package/stdin)
+    - [cli-error-notifier](https://github.com/micromata/cli-error-notifier)
+    - [npx](https://www.npmjs.com/package/npx)
+- [docsify](https://docsify.js.org)
+
 
 ### router setup cli
 automatic router setup
