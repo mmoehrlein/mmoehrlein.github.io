@@ -26,7 +26,6 @@ using npm scripts for building
 
 ### boilerplate
 want to build a generator for my boilerplate
-- [yeoman](https://yeoman.io/)
 - Winston
 - [solidarity]()
 - [git hooks](https://git-scm.com/book/uz/v2/Customizing-Git-Git-Hooks)
@@ -43,6 +42,9 @@ want to build a generator for my boilerplate
     - [cli-error-notifier](https://github.com/micromata/cli-error-notifier)
     - [npx](https://www.npmjs.com/package/npx)
 - [docsify](https://docsify.js.org)
+- [linting](https://eslint.org/)
+- autoformating with ESLint
+- editorconfig
 
 
 ### router setup cli

@@ -8,20 +8,16 @@
     <meta name="description" content="Description">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <!--<link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">-->
+    <!-- Custom font-->
     <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css'>
+    <!--<link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">-->
     <!-- Theme: Simple Dark -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+    <!-- Prism styles -->
+    <link rel="stylesheet" href="css/prism/prism-cb.css">
+    <link rel="stylesheet" href="plugins/line-numbers/prism-line-numbers.css" data-noprefix />
     <!-- Custom theme styles -->
-    <style>
-        :root {
-            --base-font-family: Hack, monospace;
-            --code-font-family: Hack, monospace;
-        }
-        .docsify-copy-code-button{
-            border-bottom-left-radius: 10px !important;
-        }
-    </style>
+    <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
 <div id="app">Loading...</div>
@@ -83,6 +79,11 @@
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
 <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
+<!-- Prism components -->
+<script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
+<script src="//unpkg.com/prismjs/components/prism-autohotkey.min.js"></script>
+<script src="//unpkg.com/prismjs/components/prism-javascript.min.js"></script>
+<script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
 <script src="//unpkg.com/docsify-copy-code@2"></script>
 </body>
 </html>

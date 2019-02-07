@@ -25,7 +25,7 @@ C:\Users\mmoehrlein\AppData\Roaming\npm
 ```
 
 Installation:
-``` 
+```shell
 npm i -g <package-name>
 ```
 
