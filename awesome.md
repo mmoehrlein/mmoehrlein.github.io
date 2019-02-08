@@ -33,7 +33,7 @@ npm i -g <package-name>
 ### boxen-cli
 create boxen like the npm package, but in the command line.
 
-```
+```shell
 boxen 'Hello World!' --align center --border-style round --padding 1
 ```
 
@@ -43,7 +43,7 @@ boxen 'Hello World!' --align center --border-style round --padding 1
 ### changelog
 generate a changlog from commits
 
-```
+```shell
 changelog mmoehrlein/mmoehrlein.github.io latest -m
 ```
 
@@ -53,7 +53,7 @@ changelog mmoehrlein/mmoehrlein.github.io latest -m
 ### docsify-cli
 initializes a docsify setup and can serve it locally
 
-```
+```shell
 docsify init ./docs
 docsify serve ./docs --open
 ```
@@ -64,7 +64,7 @@ docsify serve ./docs --open
 ### fkill-cli
 command line interface to kill processes
 
-```
+```shell
 fkill
 fkill :port
 ```
@@ -75,7 +75,7 @@ fkill :port
 ### localtunnel
 opens a tunnel to expose a local server via a public domain
 
-```
+```shell
 lt -p 3000 -o
 ```
 
@@ -89,7 +89,7 @@ ndb is an improved debugging experience for Node.js, enabled by Chrome DevTools
 ### nodemon
 monitor files and restart node app if something changes
 
-``` 
+```shell
 nodemon server
 ```
 
@@ -99,7 +99,7 @@ nodemon server
 ### np
 a better npm publish
 
-``` 
+```shell
 np minor
 ```
 
@@ -109,7 +109,7 @@ np minor
 ### npm
 node package manager - no explanation needed I guess
 
-``` 
+```shell
 npm init
 ```
 
@@ -119,7 +119,7 @@ npm init
 ### npm-name-cli
 check if npm package name is available
 
-``` 
+```shell
 npm-name <package-name>
 ```
 
@@ -129,7 +129,7 @@ npm-name <package-name>
 ### npx
 Executes <command> either from a local node_modules/.bin, or from a central cache, installing any packages needed in order for <command> to run.
 
-``` 
+```shell
 npx <local module>
 ```
 
@@ -139,7 +139,7 @@ npx <local module>
 ### ntl
 Interactive cli menu to list and run npm tasks.
 
-``` 
+```shell
 ntl
 ```
 
@@ -149,7 +149,7 @@ ntl
 ### pm2
 PM2 is a production process manager for Node.js applications with a built-in load balancer. 
 
-``` 
+```shell
 pm2 start app.js
 pm2 monit
 ```
@@ -160,7 +160,7 @@ pm2 monit
 ### release
 When run, this command line interface automatically generates a new GitHub Release and populates it with the changes (commits) made since the last release.
 
-``` 
+```shell
 release patch
 ```
 
@@ -170,7 +170,7 @@ release patch
 ### solidarity
 Solidarity is an environment checker for project dependencies across multiple machines.
 
-``` 
+```shell
 solidarity snapshot
 solidarity --verbose
 ```
@@ -181,7 +181,7 @@ solidarity --verbose
 ### spoof
 sadly it does not work for me
 
-``` 
+```shell
 spoof set <mac> <devices>
 ```
 
@@ -191,7 +191,7 @@ spoof set <mac> <devices>
 ### tldr
 super useful collection of help manuals
 
-``` 
+```shell
 tldr <command>
 ```
 
