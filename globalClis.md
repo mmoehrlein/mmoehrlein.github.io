@@ -5,7 +5,15 @@
 - private
 - public
 
-## Using commander
+## What? / Why?
+- really nice clis can be written in nodejs super easily
+- there are some packages which are a great help
+- can easily be installed globally with npm
+- can be hosted private or public
+
+> I usually use commander in combination with inquirer, if I require interactive userinput as well as chalk and cli-table for styling the output.
+
+## commander
 ### multiple commands
 ```javascript
 #!/usr/bin/env node
@@ -74,3 +82,10 @@ function actionvier(arg, cmd){
 ```
 
 ### git style subcommands
+
+## inquirer
+
+## cli-table3
+
+## chalk
+
