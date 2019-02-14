@@ -50,6 +50,9 @@ want to build a generator for my boilerplate
 ### router setup cli
 automatic router setup
 
+### react native
+https://facebook.github.io/react-native/docs/getting-started
+
 ### update-notifier-repos
 publish update-notifier for generic repos
 
