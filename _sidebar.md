@@ -2,6 +2,14 @@
 - Stuff 
     - [Index](README.md)
     - [Awesome List](awesome.md)
+    - [Node-Lambda](nodeLambda.md)
+    - [AutoHotKey](autohotkey.md)
+    - [CopyQ](copyq.md)
+    - [dotfiles](dotfiles.md)
+    - [Cli with node](globalClis.md)
+    - [Hierarchical Configuration](hierarchicalConfiguration.md)
 - Projects
-    - [latest-gitlab-tag](mmoehrlein/latest-gitlab-tag)
+    - [latest-gitlab-tag](latestGitlabTag.md)
     - [npm scripts build task](npmScripts.md)
+    - [boilerplateGenerator](boilerplateGenerator.md)
+    - [Homepage](homepage.md)
